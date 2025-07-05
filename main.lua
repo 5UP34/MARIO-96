@@ -10,8 +10,8 @@ end
 
 local E_MODEL_MX = smlua_model_util_get_id("mx_geo")
 local E_MODEL_LUCAS = smlua_model_util_get_id("lucas_geo")
-local E_MODEL_FH = smlua_model_util_get_id("fh_geo")
-local E_MODEL_PC = smlua_model_util_get_id("pc_geo")
+local E_MODEL_FH = smlua_model_util_get_id("falsehero_geo")
+local E_MODEL_PC = smlua_model_util_get_id("pipecrawler_geo")
 
 local TEX_MX = get_texture_info("icon_mx")
 local TEX_LUCAS = get_texture_info("icon_lucas")
