@@ -287,10 +287,10 @@ local ANIMS_LUCAS = {
     [CHAR_ANIM_IDLE_HEAD_CENTER] = LUCAS_ANIM_IDLE
 }
 
-CT_MX = _G.charSelect.character_add("MX", {"IT'S FUN, ISN'T IT?", "PLAYING AROUND HERE."}, "5UP34 and Razz", {r = 100, g = 0, b = 0}, E_MODEL_MX, CT_MARIO, TEX_MX, 1.4)
-CT_LUCAS = _G.charSelect.character_add("Lucas", {"GET ME OUT OF HERE!"}, "5UP34 and Razz", {r = 0, g = 225, b = 0}, E_MODEL_LUCAS, CT_MARIO, TEX_LUCAS, 0.8)
-CT_FH = _G.charSelect.character_add("False Hero", {"Heya bro!", "It's-a me, Mario!"}, "5UP34 and Razz", {r = 225, g = 0, b = 0}, E_MODEL_FH, CT_MARIO, TEX_FH)
-CT_PC = _G.charSelect.character_add("Pipe Crawler", {"GET oOVER HErE LUCAAAS!"}, "5UP34 and Razz", {r = 156, g = 132, b = 99}, E_MODEL_PC, CT_MARIO, TEX_PC)
+CT_LUCAS = _G.charSelect.character_add("Lucas", {"GET ME OUTTA HERE!"}, "MDL: 5UP34|CHR: Razz|VA: Hall Monitor", {r = 0, g = 225, b = 0}, E_MODEL_LUCAS, CT_MARIO, TEX_LUCAS, 0.8)
+CT_FH = _G.charSelect.character_add("False Hero", {"Heya bro!", "It's just-a me!"}, "MDL: 5UP34|CHR: Razz|VA: Sunset64", {r = 225, g = 0, b = 0}, E_MODEL_FH, CT_MARIO, TEX_FH)
+CT_PC = _G.charSelect.character_add("Pipe Crawler", {"FALLEN FOR MY DECEIT,", "I WILL TEAR YOU TO PIECES".}, "MDL: 5UP34|CHR: Razz|VA: Sunset64", {r = 156, g = 132, b = 99}, E_MODEL_PC, CT_MARIO, TEX_PC)
+CT_MX = _G.charSelect.character_add("MX", {"IT'S FUN, ISN'T IT?", "PLAYING AROUND HERE."}, "MDL: 5UP34|CHR: Razz|VA: Sunset64", {r = 100, g = 0, b = 0}, E_MODEL_MX, CT_MARIO, TEX_MX, 1.4)
 
 _G.charSelect.character_add_animations(E_MODEL_MX, ANIMS_MX)
 _G.charSelect.character_add_animations(E_MODEL_PC, ANIMS_PC)
