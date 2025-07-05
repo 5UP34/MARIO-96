@@ -924,6 +924,11 @@ const GeoLayout falsehero_geo[] = {
 	GEO_OPEN_NODE(),
 		GEO_SHADOW(1, 180, 100),
 		GEO_OPEN_NODE(),
+			GEO_ASM(LAYER_OPAQUE + 3, geo_mario_set_player_colors),
+GEO_ASM(LAYER_ALPHA + 3, geo_mario_set_player_colors),
+GEO_ASM(LAYER_TRANSPARENT + 3, geo_mario_set_player_colors),
+GEO_ASM(LAYER_TRANSPARENT_DECAL + 3, geo_mario_set_player_colors),
+
 			GEO_SCALE(LAYER_FORCE, 16384),
 			GEO_OPEN_NODE(),
 				GEO_ASM(0, geo_mirror_mario_backface_culling),
