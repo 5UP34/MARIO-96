@@ -1,5 +1,5 @@
 -- name: [CS] MARIO '96
--- description: The OFFICIAL \\#8B0000\\MARIO '85\\#FFFFFF\\ in \\#FF0000\\S\\#007FFF\\M\\#00FF00\\6\\#FFFF00\\4\\#FFFFFF\\ Character Select Pack!\n\nThis Pack requires Character Select to use as a Library!
+-- description: The OFFICIAL \\#8B0000\\MARIO '85\\#FFFFFF\\ in \\#FF0000\\S\\#007FFF\\M\\#00FF00\\6\\#FFFF00\\4\\#FFFFFF\\ Character Select Pack!\n\nCommands:\n/hud96 [on|off] - toggle the custom hud\n\nCredits:\nModels by \\#007FFF\\5UP34\\#FFFFFF\\\nCode by \\#CA8DFE\\DM-kun\\#FFFFFF\\ and \\#06402B\\Squishy\\#FFFFFF\\\nVoice Acting By Sunset + The Hall Monitor\nCharacters Owned by RazzDazzleDoo\n\\#ffffff\\\n\nThis Pack requires Character Select to use as a Library!
 
 local TEXT_MOD_NAME = "MARIO '96 Pack"
 
@@ -291,13 +291,17 @@ local ANIMS_PC = {
 	[CHAR_ANIM_IDLE_HEAD_LEFT] = PC_ANIM_IDLE,
 	[CHAR_ANIM_IDLE_HEAD_RIGHT] = PC_ANIM_IDLE,
 	[CHAR_ANIM_IDLE_HEAD_CENTER] = PC_ANIM_IDLE,
+        [CHAR_ANIM_SINGLE_JUMP] = PC_ANIM_JUMP,
+        [CHAR_ANIM_LAND_FROM_SINGLE_JUMP] = PC_ANIM_JUMP
 }
 
 local ANIMS_MX = {
 	[charSelect.CS_ANIM_MENU] = MX_ANIM_MENU,
 	[CHAR_ANIM_IDLE_HEAD_LEFT] = MX_ANIM_IDLE,
 	[CHAR_ANIM_IDLE_HEAD_RIGHT] = MX_ANIM_IDLE,
-	[CHAR_ANIM_IDLE_HEAD_CENTER] = MX_ANIM_IDLE
+	[CHAR_ANIM_IDLE_HEAD_CENTER] = MX_ANIM_IDLE,
+        [CHAR_ANIM_SINGLE_JUMP] = MX_ANIM_JUMP,
+        [CHAR_ANIM_LAND_FROM_SINGLE_JUMP] = MX_ANIM_JUMP
 }
 
 local CSloaded = false
@@ -331,17 +335,13 @@ local function on_character_select_load()
 	_G.charSelect.character_add_palette_preset(E_MODEL_PC, PALETTE_PC)
 	_G.charSelect.character_add_palette_preset(E_MODEL_MX, PALETTE_MX)
 
-	_G.charSelect.character_set_category(CT_LUCAS, TEXT_MOD_NAME)
-	_G.charSelect.character_set_category(CT_FH, TEXT_MOD_NAME)
-	_G.charSelect.character_set_category(CT_PC, TEXT_MOD_NAME)
-	_G.charSelect.character_set_category(CT_MX, TEXT_MOD_NAME)
+	_G.charSelect.character_set_category(CT_LUCAS, "MARIO '96")
+	_G.charSelect.character_set_category(CT_FH, "MARIO '96")
+	_G.charSelect.character_set_category(CT_PC, "MARIO '96")
+	_G.charSelect.character_set_category(CT_MX, "MARIO '96")
 
-	_G.charSelect.credit_add(TEXT_MOD_NAME, "5UP34", "Model Creator")
-	_G.charSelect.credit_add(TEXT_MOD_NAME, "Sunset", "Voice Actor")
-	_G.charSelect.credit_add(TEXT_MOD_NAME, "The Hall Monitor", "Voice Actor")
-	_G.charSelect.credit_add(TEXT_MOD_NAME, "Squishy", "Coder")
-	_G.charSelect.credit_add(TEXT_MOD_NAME, "Demi-kun", "Coder")
-	_G.charSelect.credit_add(TEXT_MOD_NAME, "RazzDazzleDoo", "Character Owner")
+	-- I'll leave adding credits to someone else, lmao - DM
+	-- _G.charSelect.credit_add(TEXT_MOD_NAME, "5UP34", "Model Creator")
 
 	CSloaded = true
 end
