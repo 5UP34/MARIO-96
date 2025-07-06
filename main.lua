@@ -339,13 +339,17 @@ local function on_character_select_load()
 	_G.charSelect.character_add_palette_preset(E_MODEL_PC, PALETTE_PC)
 	_G.charSelect.character_add_palette_preset(E_MODEL_MX, PALETTE_MX)
 
-	_G.charSelect.character_set_category(CT_LUCAS, "MARIO '96")
-	_G.charSelect.character_set_category(CT_FH, "MARIO '96")
-	_G.charSelect.character_set_category(CT_PC, "MARIO '96")
-	_G.charSelect.character_set_category(CT_MX, "MARIO '96")
+	_G.charSelect.character_set_category(CT_LUCAS, TEXT_MOD_NAME)
+	_G.charSelect.character_set_category(CT_FH, TEXT_MOD_NAME)
+	_G.charSelect.character_set_category(CT_PC, TEXT_MOD_NAME)
+	_G.charSelect.character_set_category(CT_MX, TEXT_MOD_NAME)
 
-	-- I'll leave adding credits to someone else, lmao - DM
-	-- _G.charSelect.credit_add(TEXT_MOD_NAME, "5UP34", "Model Creator")
+	_G.charSelect.credit_add(TEXT_MOD_NAME, "5UP34", "Model Creator")
+	_G.charSelect.credit_add(TEXT_MOD_NAME, "Sunset", "Voice Actor")
+	_G.charSelect.credit_add(TEXT_MOD_NAME, "The Hall Monitor", "Voice Actor")
+	_G.charSelect.credit_add(TEXT_MOD_NAME, "Squishy", "Coder")
+	_G.charSelect.credit_add(TEXT_MOD_NAME, "Demi-kun", "Coder")
+	_G.charSelect.credit_add(TEXT_MOD_NAME, "RazzDazzleDoo", "Character Owner")
 
 	CSloaded = true
 end
