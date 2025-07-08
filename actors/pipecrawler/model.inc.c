@@ -2778,7 +2778,7 @@ Gfx pipecrawler_000_displaylist_mesh_layer_1_tri_3[] = {
 	gsSPEndDisplayList(),
 };
 
-Vtx pipecrawler_000_displaylist_mesh_layer_5_vtx_0[8] = {
+Vtx pipecrawler_000_displaylist_mesh_layer_4_vtx_0[8] = {
 	{{ {61, 71, 31}, 0, {-16, 1009}, {15, 66, 108, 255} }},
 	{{ {77, 42, 63}, 0, {416, 1008}, {30, 74, 99, 255} }},
 	{{ {126, 6, 96}, 0, {1034, 52}, {250, 87, 92, 255} }},
@@ -2789,8 +2789,8 @@ Vtx pipecrawler_000_displaylist_mesh_layer_5_vtx_0[8] = {
 	{{ {77, 42, -63}, 0, {416, 1008}, {30, 74, 157, 255} }},
 };
 
-Gfx pipecrawler_000_displaylist_mesh_layer_5_tri_0[] = {
-	gsSPVertex(pipecrawler_000_displaylist_mesh_layer_5_vtx_0 + 0, 8, 0),
+Gfx pipecrawler_000_displaylist_mesh_layer_4_tri_0[] = {
+	gsSPVertex(pipecrawler_000_displaylist_mesh_layer_4_vtx_0 + 0, 8, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 2, 3, 0),
 	gsSP1Triangle(4, 5, 6, 0),
@@ -2798,7 +2798,7 @@ Gfx pipecrawler_000_displaylist_mesh_layer_5_tri_0[] = {
 	gsSPEndDisplayList(),
 };
 
-Vtx pipecrawler_000_displaylist_mesh_layer_5_vtx_1[10] = {
+Vtx pipecrawler_000_displaylist_mesh_layer_5_vtx_0[10] = {
 	{{ {140, 42, 33}, 0, {237, 15}, {10, 87, 92, 255} }},
 	{{ {87, 19, 69}, 0, {995, 813}, {10, 99, 78, 255} }},
 	{{ {136, 10, 70}, 0, {941, 8}, {10, 99, 78, 255} }},
@@ -2811,8 +2811,8 @@ Vtx pipecrawler_000_displaylist_mesh_layer_5_vtx_1[10] = {
 	{{ {136, 10, -71}, 0, {941, 8}, {10, 99, 178, 255} }},
 };
 
-Gfx pipecrawler_000_displaylist_mesh_layer_5_tri_1[] = {
-	gsSPVertex(pipecrawler_000_displaylist_mesh_layer_5_vtx_1 + 0, 10, 0),
+Gfx pipecrawler_000_displaylist_mesh_layer_5_tri_0[] = {
+	gsSPVertex(pipecrawler_000_displaylist_mesh_layer_5_vtx_0 + 0, 10, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 3, 1, 0),
 	gsSP1Triangle(4, 3, 0, 0),
@@ -2824,7 +2824,7 @@ Gfx pipecrawler_000_displaylist_mesh_layer_5_tri_1[] = {
 	gsSPEndDisplayList(),
 };
 
-Vtx pipecrawler_000_displaylist_mesh_layer_5_vtx_2[6] = {
+Vtx pipecrawler_000_displaylist_mesh_layer_5_vtx_1[6] = {
 	{{ {161, 87, 0}, 0, {441, 1071}, {255, 127, 0, 255} }},
 	{{ {151, 48, 52}, 0, {1212, 1246}, {255, 103, 75, 255} }},
 	{{ {204, 48, 53}, 0, {1199, 44}, {255, 103, 75, 255} }},
@@ -2833,8 +2833,8 @@ Vtx pipecrawler_000_displaylist_mesh_layer_5_vtx_2[6] = {
 	{{ {151, 48, -52}, 0, {1212, 1246}, {255, 103, 181, 255} }},
 };
 
-Gfx pipecrawler_000_displaylist_mesh_layer_5_tri_2[] = {
-	gsSPVertex(pipecrawler_000_displaylist_mesh_layer_5_vtx_2 + 0, 6, 0),
+Gfx pipecrawler_000_displaylist_mesh_layer_5_tri_1[] = {
+	gsSPVertex(pipecrawler_000_displaylist_mesh_layer_5_vtx_1 + 0, 6, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 2, 3, 0),
 	gsSP1Triangle(0, 3, 4, 0),
@@ -2842,7 +2842,7 @@ Gfx pipecrawler_000_displaylist_mesh_layer_5_tri_2[] = {
 	gsSPEndDisplayList(),
 };
 
-Vtx pipecrawler_000_displaylist_mesh_layer_5_vtx_3[8] = {
+Vtx pipecrawler_000_displaylist_mesh_layer_5_vtx_2[8] = {
 	{{ {136, 10, 70}, 0, {-120, 72}, {6, 38, 121, 255} }},
 	{{ {87, 19, 69}, 0, {-61, 1099}, {6, 38, 121, 255} }},
 	{{ {87, -45, 90}, 0, {981, 806}, {6, 38, 121, 255} }},
@@ -2853,8 +2853,8 @@ Vtx pipecrawler_000_displaylist_mesh_layer_5_vtx_3[8] = {
 	{{ {123, -54, -90}, 0, {1007, 72}, {6, 38, 135, 255} }},
 };
 
-Gfx pipecrawler_000_displaylist_mesh_layer_5_tri_3[] = {
-	gsSPVertex(pipecrawler_000_displaylist_mesh_layer_5_vtx_3 + 0, 8, 0),
+Gfx pipecrawler_000_displaylist_mesh_layer_5_tri_2[] = {
+	gsSPVertex(pipecrawler_000_displaylist_mesh_layer_5_vtx_2 + 0, 8, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 2, 3, 0),
 	gsSP1Triangle(4, 5, 6, 0),
@@ -2862,7 +2862,7 @@ Gfx pipecrawler_000_displaylist_mesh_layer_5_tri_3[] = {
 	gsSPEndDisplayList(),
 };
 
-Vtx pipecrawler_000_displaylist_mesh_layer_5_vtx_4[10] = {
+Vtx pipecrawler_000_displaylist_mesh_layer_5_vtx_3[10] = {
 	{{ {-28, 57, 41}, 0, {439, 964}, {227, 75, 98, 255} }},
 	{{ {-6, 6, 69}, 0, {1010, 906}, {228, 50, 113, 255} }},
 	{{ {57, 15, 80}, 0, {1028, 241}, {232, 56, 111, 255} }},
@@ -2875,8 +2875,8 @@ Vtx pipecrawler_000_displaylist_mesh_layer_5_vtx_4[10] = {
 	{{ {-6, 6, -69}, 0, {1010, 906}, {228, 50, 143, 255} }},
 };
 
-Gfx pipecrawler_000_displaylist_mesh_layer_5_tri_4[] = {
-	gsSPVertex(pipecrawler_000_displaylist_mesh_layer_5_vtx_4 + 0, 10, 0),
+Gfx pipecrawler_000_displaylist_mesh_layer_5_tri_3[] = {
+	gsSPVertex(pipecrawler_000_displaylist_mesh_layer_5_vtx_3 + 0, 10, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(2, 3, 0, 0),
 	gsSP1Triangle(4, 0, 3, 0),
@@ -3321,7 +3321,7 @@ Gfx pipecrawler_002_switch_option_head_dead_mesh_layer_1_tri_3[] = {
 	gsSPEndDisplayList(),
 };
 
-Vtx pipecrawler_002_switch_option_head_dead_mesh_layer_5_vtx_0[8] = {
+Vtx pipecrawler_002_switch_option_head_dead_mesh_layer_4_vtx_0[8] = {
 	{{ {75, 76, 40}, 0, {-16, 1009}, {19, 63, 109, 255} }},
 	{{ {81, 48, 71}, 0, {416, 1008}, {22, 72, 103, 255} }},
 	{{ {128, 15, 101}, 0, {1034, 52}, {251, 88, 92, 255} }},
@@ -3332,8 +3332,8 @@ Vtx pipecrawler_002_switch_option_head_dead_mesh_layer_5_vtx_0[8] = {
 	{{ {81, 48, -49}, 0, {416, 1008}, {22, 72, 153, 255} }},
 };
 
-Gfx pipecrawler_002_switch_option_head_dead_mesh_layer_5_tri_0[] = {
-	gsSPVertex(pipecrawler_002_switch_option_head_dead_mesh_layer_5_vtx_0 + 0, 8, 0),
+Gfx pipecrawler_002_switch_option_head_dead_mesh_layer_4_tri_0[] = {
+	gsSPVertex(pipecrawler_002_switch_option_head_dead_mesh_layer_4_vtx_0 + 0, 8, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 2, 3, 0),
 	gsSP1Triangle(4, 5, 6, 0),
@@ -3341,7 +3341,7 @@ Gfx pipecrawler_002_switch_option_head_dead_mesh_layer_5_tri_0[] = {
 	gsSPEndDisplayList(),
 };
 
-Vtx pipecrawler_002_switch_option_head_dead_mesh_layer_5_vtx_1[10] = {
+Vtx pipecrawler_002_switch_option_head_dead_mesh_layer_5_vtx_0[10] = {
 	{{ {130, 52, 41}, 0, {237, 15}, {11, 88, 91, 255} }},
 	{{ {99, 28, 75}, 0, {995, 813}, {10, 99, 78, 255} }},
 	{{ {130, 21, 77}, 0, {941, 8}, {10, 99, 78, 255} }},
@@ -3354,8 +3354,8 @@ Vtx pipecrawler_002_switch_option_head_dead_mesh_layer_5_vtx_1[10] = {
 	{{ {130, 21, -55}, 0, {941, 8}, {10, 99, 178, 255} }},
 };
 
-Gfx pipecrawler_002_switch_option_head_dead_mesh_layer_5_tri_1[] = {
-	gsSPVertex(pipecrawler_002_switch_option_head_dead_mesh_layer_5_vtx_1 + 0, 10, 0),
+Gfx pipecrawler_002_switch_option_head_dead_mesh_layer_5_tri_0[] = {
+	gsSPVertex(pipecrawler_002_switch_option_head_dead_mesh_layer_5_vtx_0 + 0, 10, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 3, 1, 0),
 	gsSP1Triangle(4, 3, 0, 0),
@@ -3367,7 +3367,7 @@ Gfx pipecrawler_002_switch_option_head_dead_mesh_layer_5_tri_1[] = {
 	gsSPEndDisplayList(),
 };
 
-Vtx pipecrawler_002_switch_option_head_dead_mesh_layer_5_vtx_2[6] = {
+Vtx pipecrawler_002_switch_option_head_dead_mesh_layer_5_vtx_1[6] = {
 	{{ {145, 95, 11}, 0, {441, 1071}, {241, 126, 0, 255} }},
 	{{ {139, 58, 59}, 0, {1212, 1246}, {244, 102, 75, 255} }},
 	{{ {189, 63, 61}, 0, {1199, 44}, {244, 102, 75, 255} }},
@@ -3376,8 +3376,8 @@ Vtx pipecrawler_002_switch_option_head_dead_mesh_layer_5_vtx_2[6] = {
 	{{ {139, 58, -38}, 0, {1212, 1246}, {244, 102, 181, 255} }},
 };
 
-Gfx pipecrawler_002_switch_option_head_dead_mesh_layer_5_tri_2[] = {
-	gsSPVertex(pipecrawler_002_switch_option_head_dead_mesh_layer_5_vtx_2 + 0, 6, 0),
+Gfx pipecrawler_002_switch_option_head_dead_mesh_layer_5_tri_1[] = {
+	gsSPVertex(pipecrawler_002_switch_option_head_dead_mesh_layer_5_vtx_1 + 0, 6, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 2, 3, 0),
 	gsSP1Triangle(0, 3, 4, 0),
@@ -3385,7 +3385,7 @@ Gfx pipecrawler_002_switch_option_head_dead_mesh_layer_5_tri_2[] = {
 	gsSPEndDisplayList(),
 };
 
-Vtx pipecrawler_002_switch_option_head_dead_mesh_layer_5_vtx_3[8] = {
+Vtx pipecrawler_002_switch_option_head_dead_mesh_layer_5_vtx_2[8] = {
 	{{ {130, 21, 77}, 0, {-120, 72}, {6, 39, 121, 255} }},
 	{{ {99, 28, 75}, 0, {-61, 1099}, {6, 39, 121, 255} }},
 	{{ {99, -32, 95}, 0, {981, 806}, {6, 39, 121, 255} }},
@@ -3396,8 +3396,8 @@ Vtx pipecrawler_002_switch_option_head_dead_mesh_layer_5_vtx_3[8] = {
 	{{ {133, -40, -74}, 0, {1007, 72}, {6, 39, 135, 255} }},
 };
 
-Gfx pipecrawler_002_switch_option_head_dead_mesh_layer_5_tri_3[] = {
-	gsSPVertex(pipecrawler_002_switch_option_head_dead_mesh_layer_5_vtx_3 + 0, 8, 0),
+Gfx pipecrawler_002_switch_option_head_dead_mesh_layer_5_tri_2[] = {
+	gsSPVertex(pipecrawler_002_switch_option_head_dead_mesh_layer_5_vtx_2 + 0, 8, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 2, 3, 0),
 	gsSP1Triangle(4, 5, 6, 0),
@@ -3405,7 +3405,7 @@ Gfx pipecrawler_002_switch_option_head_dead_mesh_layer_5_tri_3[] = {
 	gsSPEndDisplayList(),
 };
 
-Vtx pipecrawler_002_switch_option_head_dead_mesh_layer_5_vtx_4[10] = {
+Vtx pipecrawler_002_switch_option_head_dead_mesh_layer_5_vtx_3[10] = {
 	{{ {-14, 64, 49}, 0, {439, 964}, {230, 76, 98, 255} }},
 	{{ {-2, 16, 75}, 0, {1010, 906}, {234, 56, 112, 255} }},
 	{{ {70, 24, 86}, 0, {1028, 241}, {235, 59, 111, 255} }},
@@ -3418,8 +3418,8 @@ Vtx pipecrawler_002_switch_option_head_dead_mesh_layer_5_vtx_4[10] = {
 	{{ {-2, 16, -53}, 0, {1010, 906}, {234, 56, 144, 255} }},
 };
 
-Gfx pipecrawler_002_switch_option_head_dead_mesh_layer_5_tri_4[] = {
-	gsSPVertex(pipecrawler_002_switch_option_head_dead_mesh_layer_5_vtx_4 + 0, 10, 0),
+Gfx pipecrawler_002_switch_option_head_dead_mesh_layer_5_tri_3[] = {
+	gsSPVertex(pipecrawler_002_switch_option_head_dead_mesh_layer_5_vtx_3 + 0, 10, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(2, 3, 0, 0),
 	gsSP1Triangle(4, 0, 3, 0),
@@ -3859,7 +3859,7 @@ Gfx pipecrawler_002_switch_option_head__no_cap__mesh_layer_1_tri_2[] = {
 	gsSPEndDisplayList(),
 };
 
-Vtx pipecrawler_002_switch_option_head__no_cap__mesh_layer_5_vtx_0[8] = {
+Vtx pipecrawler_002_switch_option_head__no_cap__mesh_layer_4_vtx_0[8] = {
 	{{ {58, 74, 29}, 0, {-16, 1009}, {15, 66, 108, 255} }},
 	{{ {73, 47, 59}, 0, {416, 1008}, {30, 74, 99, 255} }},
 	{{ {119, 14, 90}, 0, {1034, 52}, {250, 87, 92, 255} }},
@@ -3870,8 +3870,8 @@ Vtx pipecrawler_002_switch_option_head__no_cap__mesh_layer_5_vtx_0[8] = {
 	{{ {73, 47, -59}, 0, {416, 1008}, {30, 74, 157, 255} }},
 };
 
-Gfx pipecrawler_002_switch_option_head__no_cap__mesh_layer_5_tri_0[] = {
-	gsSPVertex(pipecrawler_002_switch_option_head__no_cap__mesh_layer_5_vtx_0 + 0, 8, 0),
+Gfx pipecrawler_002_switch_option_head__no_cap__mesh_layer_4_tri_0[] = {
+	gsSPVertex(pipecrawler_002_switch_option_head__no_cap__mesh_layer_4_vtx_0 + 0, 8, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 2, 3, 0),
 	gsSP1Triangle(4, 5, 6, 0),
@@ -3879,7 +3879,7 @@ Gfx pipecrawler_002_switch_option_head__no_cap__mesh_layer_5_tri_0[] = {
 	gsSPEndDisplayList(),
 };
 
-Vtx pipecrawler_002_switch_option_head__no_cap__mesh_layer_5_vtx_1[10] = {
+Vtx pipecrawler_002_switch_option_head__no_cap__mesh_layer_5_vtx_0[10] = {
 	{{ {132, 48, 31}, 0, {237, 15}, {10, 87, 92, 255} }},
 	{{ {82, 26, 64}, 0, {995, 813}, {10, 99, 78, 255} }},
 	{{ {128, 17, 66}, 0, {941, 8}, {10, 99, 78, 255} }},
@@ -3892,8 +3892,8 @@ Vtx pipecrawler_002_switch_option_head__no_cap__mesh_layer_5_vtx_1[10] = {
 	{{ {128, 17, -66}, 0, {941, 8}, {10, 99, 178, 255} }},
 };
 
-Gfx pipecrawler_002_switch_option_head__no_cap__mesh_layer_5_tri_1[] = {
-	gsSPVertex(pipecrawler_002_switch_option_head__no_cap__mesh_layer_5_vtx_1 + 0, 10, 0),
+Gfx pipecrawler_002_switch_option_head__no_cap__mesh_layer_5_tri_0[] = {
+	gsSPVertex(pipecrawler_002_switch_option_head__no_cap__mesh_layer_5_vtx_0 + 0, 10, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 3, 1, 0),
 	gsSP1Triangle(4, 3, 0, 0),
@@ -3905,7 +3905,7 @@ Gfx pipecrawler_002_switch_option_head__no_cap__mesh_layer_5_tri_1[] = {
 	gsSPEndDisplayList(),
 };
 
-Vtx pipecrawler_002_switch_option_head__no_cap__mesh_layer_5_vtx_2[8] = {
+Vtx pipecrawler_002_switch_option_head__no_cap__mesh_layer_5_vtx_1[8] = {
 	{{ {128, 17, 66}, 0, {-120, 72}, {6, 38, 121, 255} }},
 	{{ {82, 26, 64}, 0, {-61, 1099}, {6, 38, 121, 255} }},
 	{{ {82, -34, 84}, 0, {981, 806}, {6, 38, 121, 255} }},
@@ -3916,8 +3916,8 @@ Vtx pipecrawler_002_switch_option_head__no_cap__mesh_layer_5_vtx_2[8] = {
 	{{ {116, -42, -85}, 0, {1007, 72}, {6, 38, 135, 255} }},
 };
 
-Gfx pipecrawler_002_switch_option_head__no_cap__mesh_layer_5_tri_2[] = {
-	gsSPVertex(pipecrawler_002_switch_option_head__no_cap__mesh_layer_5_vtx_2 + 0, 8, 0),
+Gfx pipecrawler_002_switch_option_head__no_cap__mesh_layer_5_tri_1[] = {
+	gsSPVertex(pipecrawler_002_switch_option_head__no_cap__mesh_layer_5_vtx_1 + 0, 8, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 2, 3, 0),
 	gsSP1Triangle(4, 5, 6, 0),
@@ -3925,7 +3925,7 @@ Gfx pipecrawler_002_switch_option_head__no_cap__mesh_layer_5_tri_2[] = {
 	gsSPEndDisplayList(),
 };
 
-Vtx pipecrawler_002_switch_option_head__no_cap__mesh_layer_5_vtx_3[10] = {
+Vtx pipecrawler_002_switch_option_head__no_cap__mesh_layer_5_vtx_2[10] = {
 	{{ {-26, 62, 38}, 0, {439, 964}, {227, 75, 98, 255} }},
 	{{ {-5, 14, 64}, 0, {1010, 906}, {228, 50, 113, 255} }},
 	{{ {54, 22, 75}, 0, {1028, 241}, {232, 56, 111, 255} }},
@@ -3938,8 +3938,8 @@ Vtx pipecrawler_002_switch_option_head__no_cap__mesh_layer_5_vtx_3[10] = {
 	{{ {-5, 14, -64}, 0, {1010, 906}, {228, 50, 143, 255} }},
 };
 
-Gfx pipecrawler_002_switch_option_head__no_cap__mesh_layer_5_tri_3[] = {
-	gsSPVertex(pipecrawler_002_switch_option_head__no_cap__mesh_layer_5_vtx_3 + 0, 10, 0),
+Gfx pipecrawler_002_switch_option_head__no_cap__mesh_layer_5_tri_2[] = {
+	gsSPVertex(pipecrawler_002_switch_option_head__no_cap__mesh_layer_5_vtx_2 + 0, 10, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(2, 3, 0, 0),
 	gsSP1Triangle(4, 0, 3, 0),
@@ -4379,7 +4379,7 @@ Gfx pipecrawler_002_switch_option_002_switch_option_head_dead_no_cap_mesh_layer_
 	gsSPEndDisplayList(),
 };
 
-Vtx pipecrawler_002_switch_option_002_switch_option_head_dead_no_cap_mesh_layer_5_vtx_0[8] = {
+Vtx pipecrawler_002_switch_option_002_switch_option_head_dead_no_cap_mesh_layer_4_vtx_0[8] = {
 	{{ {77, 76, 40}, 0, {-16, 1009}, {12, 63, 109, 255} }},
 	{{ {90, 49, 70}, 0, {416, 1008}, {26, 73, 101, 255} }},
 	{{ {138, 16, 101}, 0, {1034, 52}, {245, 85, 94, 255} }},
@@ -4390,8 +4390,8 @@ Vtx pipecrawler_002_switch_option_002_switch_option_head_dead_no_cap_mesh_layer_
 	{{ {90, 49, -48}, 0, {416, 1008}, {26, 73, 155, 255} }},
 };
 
-Gfx pipecrawler_002_switch_option_002_switch_option_head_dead_no_cap_mesh_layer_5_tri_0[] = {
-	gsSPVertex(pipecrawler_002_switch_option_002_switch_option_head_dead_no_cap_mesh_layer_5_vtx_0 + 0, 8, 0),
+Gfx pipecrawler_002_switch_option_002_switch_option_head_dead_no_cap_mesh_layer_4_tri_0[] = {
+	gsSPVertex(pipecrawler_002_switch_option_002_switch_option_head_dead_no_cap_mesh_layer_4_vtx_0 + 0, 8, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 2, 3, 0),
 	gsSP1Triangle(4, 5, 6, 0),
@@ -4399,7 +4399,7 @@ Gfx pipecrawler_002_switch_option_002_switch_option_head_dead_no_cap_mesh_layer_
 	gsSPEndDisplayList(),
 };
 
-Vtx pipecrawler_002_switch_option_002_switch_option_head_dead_no_cap_mesh_layer_5_vtx_1[10] = {
+Vtx pipecrawler_002_switch_option_002_switch_option_head_dead_no_cap_mesh_layer_5_vtx_0[10] = {
 	{{ {137, 58, 41}, 0, {237, 15}, {248, 86, 93, 255} }},
 	{{ {98, 28, 75}, 0, {995, 813}, {248, 99, 79, 255} }},
 	{{ {139, 26, 77}, 0, {941, 8}, {248, 99, 79, 255} }},
@@ -4412,8 +4412,8 @@ Vtx pipecrawler_002_switch_option_002_switch_option_head_dead_no_cap_mesh_layer_
 	{{ {139, 26, -55}, 0, {941, 8}, {248, 99, 177, 255} }},
 };
 
-Gfx pipecrawler_002_switch_option_002_switch_option_head_dead_no_cap_mesh_layer_5_tri_1[] = {
-	gsSPVertex(pipecrawler_002_switch_option_002_switch_option_head_dead_no_cap_mesh_layer_5_vtx_1 + 0, 10, 0),
+Gfx pipecrawler_002_switch_option_002_switch_option_head_dead_no_cap_mesh_layer_5_tri_0[] = {
+	gsSPVertex(pipecrawler_002_switch_option_002_switch_option_head_dead_no_cap_mesh_layer_5_vtx_0 + 0, 10, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 3, 1, 0),
 	gsSP1Triangle(4, 3, 0, 0),
@@ -4425,7 +4425,7 @@ Gfx pipecrawler_002_switch_option_002_switch_option_head_dead_no_cap_mesh_layer_
 	gsSPEndDisplayList(),
 };
 
-Vtx pipecrawler_002_switch_option_002_switch_option_head_dead_no_cap_mesh_layer_5_vtx_2[8] = {
+Vtx pipecrawler_002_switch_option_002_switch_option_head_dead_no_cap_mesh_layer_5_vtx_1[8] = {
 	{{ {139, 26, 77}, 0, {-120, 72}, {1, 37, 122, 255} }},
 	{{ {98, 28, 75}, 0, {-61, 1099}, {1, 37, 122, 255} }},
 	{{ {97, -32, 95}, 0, {981, 806}, {1, 37, 122, 255} }},
@@ -4436,8 +4436,8 @@ Vtx pipecrawler_002_switch_option_002_switch_option_head_dead_no_cap_mesh_layer_
 	{{ {135, -40, -74}, 0, {1007, 72}, {1, 37, 134, 255} }},
 };
 
-Gfx pipecrawler_002_switch_option_002_switch_option_head_dead_no_cap_mesh_layer_5_tri_2[] = {
-	gsSPVertex(pipecrawler_002_switch_option_002_switch_option_head_dead_no_cap_mesh_layer_5_vtx_2 + 0, 8, 0),
+Gfx pipecrawler_002_switch_option_002_switch_option_head_dead_no_cap_mesh_layer_5_tri_1[] = {
+	gsSPVertex(pipecrawler_002_switch_option_002_switch_option_head_dead_no_cap_mesh_layer_5_vtx_1 + 0, 8, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 2, 3, 0),
 	gsSP1Triangle(4, 5, 6, 0),
@@ -4445,7 +4445,7 @@ Gfx pipecrawler_002_switch_option_002_switch_option_head_dead_no_cap_mesh_layer_
 	gsSPEndDisplayList(),
 };
 
-Vtx pipecrawler_002_switch_option_002_switch_option_head_dead_no_cap_mesh_layer_5_vtx_3[10] = {
+Vtx pipecrawler_002_switch_option_002_switch_option_head_dead_no_cap_mesh_layer_5_vtx_2[10] = {
 	{{ {-11, 64, 49}, 0, {439, 964}, {229, 76, 98, 255} }},
 	{{ {-7, 16, 74}, 0, {1010, 906}, {231, 57, 111, 255} }},
 	{{ {62, 24, 85}, 0, {1028, 241}, {233, 60, 110, 255} }},
@@ -4458,8 +4458,8 @@ Vtx pipecrawler_002_switch_option_002_switch_option_head_dead_no_cap_mesh_layer_
 	{{ {-7, 16, -52}, 0, {1010, 906}, {231, 57, 145, 255} }},
 };
 
-Gfx pipecrawler_002_switch_option_002_switch_option_head_dead_no_cap_mesh_layer_5_tri_3[] = {
-	gsSPVertex(pipecrawler_002_switch_option_002_switch_option_head_dead_no_cap_mesh_layer_5_vtx_3 + 0, 10, 0),
+Gfx pipecrawler_002_switch_option_002_switch_option_head_dead_no_cap_mesh_layer_5_tri_2[] = {
+	gsSPVertex(pipecrawler_002_switch_option_002_switch_option_head_dead_no_cap_mesh_layer_5_vtx_2 + 0, 10, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(2, 3, 0, 0),
 	gsSP1Triangle(4, 0, 3, 0),
@@ -6779,21 +6779,46 @@ Gfx pipecrawler_000_displaylist_mesh_layer_1_mat_override_face_2___eye_closed_v3
 	gsSPEndDisplayList(),
 };
 
-Gfx pipecrawler_000_displaylist_mesh_layer_5[] = {
+Gfx pipecrawler_000_displaylist_mesh_layer_4[] = {
 	gsSPDisplayList(mat_pipecrawler_Mustache),
-	gsSPDisplayList(pipecrawler_000_displaylist_mesh_layer_5_tri_0),
+	gsSPDisplayList(pipecrawler_000_displaylist_mesh_layer_4_tri_0),
 	gsSPDisplayList(mat_revert_pipecrawler_Mustache),
+	gsSPEndDisplayList(),
+};
+
+Gfx pipecrawler_000_displaylist_mesh_layer_4_mat_override_metal_v3_001_0[] = {
+	gsSPDisplayList(mat_pipecrawler_metal_v3_001),
+	gsSPDisplayList(pipecrawler_000_displaylist_mesh_layer_4_tri_0),
+	gsSPDisplayList(mat_revert_pipecrawler_metal_v3_001),
+	gsSPEndDisplayList(),
+};
+
+Gfx pipecrawler_000_displaylist_mesh_layer_4_mat_override_face_1___eye_half_v3_001_1[] = {
+	gsSPDisplayList(mat_pipecrawler_Mustache),
+	gsSPDisplayList(pipecrawler_000_displaylist_mesh_layer_4_tri_0),
+	gsSPDisplayList(mat_revert_pipecrawler_Mustache),
+	gsSPEndDisplayList(),
+};
+
+Gfx pipecrawler_000_displaylist_mesh_layer_4_mat_override_face_2___eye_closed_v3_001_2[] = {
+	gsSPDisplayList(mat_pipecrawler_Mustache),
+	gsSPDisplayList(pipecrawler_000_displaylist_mesh_layer_4_tri_0),
+	gsSPDisplayList(mat_revert_pipecrawler_Mustache),
+	gsSPEndDisplayList(),
+};
+
+Gfx pipecrawler_000_displaylist_mesh_layer_5[] = {
 	gsSPDisplayList(mat_pipecrawler_Eye),
-	gsSPDisplayList(pipecrawler_000_displaylist_mesh_layer_5_tri_1),
+	gsSPDisplayList(pipecrawler_000_displaylist_mesh_layer_5_tri_0),
 	gsSPDisplayList(mat_revert_pipecrawler_Eye),
 	gsSPDisplayList(mat_pipecrawler_Emblem),
-	gsSPDisplayList(pipecrawler_000_displaylist_mesh_layer_5_tri_2),
+	gsSPDisplayList(pipecrawler_000_displaylist_mesh_layer_5_tri_1),
 	gsSPDisplayList(mat_revert_pipecrawler_Emblem),
 	gsSPDisplayList(mat_pipecrawler_Sideburn),
-	gsSPDisplayList(pipecrawler_000_displaylist_mesh_layer_5_tri_3),
+	gsSPDisplayList(pipecrawler_000_displaylist_mesh_layer_5_tri_2),
 	gsSPDisplayList(mat_revert_pipecrawler_Sideburn),
 	gsSPDisplayList(mat_pipecrawler_Teeth),
-	gsSPDisplayList(pipecrawler_000_displaylist_mesh_layer_5_tri_4),
+	gsSPDisplayList(pipecrawler_000_displaylist_mesh_layer_5_tri_3),
 	gsSPDisplayList(mat_revert_pipecrawler_Teeth),
 	gsSPEndDisplayList(),
 };
@@ -6804,45 +6829,38 @@ Gfx pipecrawler_000_displaylist_mesh_layer_5_mat_override_metal_v3_001_0[] = {
 	gsSPDisplayList(pipecrawler_000_displaylist_mesh_layer_5_tri_1),
 	gsSPDisplayList(pipecrawler_000_displaylist_mesh_layer_5_tri_2),
 	gsSPDisplayList(pipecrawler_000_displaylist_mesh_layer_5_tri_3),
-	gsSPDisplayList(pipecrawler_000_displaylist_mesh_layer_5_tri_4),
 	gsSPDisplayList(mat_revert_pipecrawler_metal_v3_001),
 	gsSPEndDisplayList(),
 };
 
 Gfx pipecrawler_000_displaylist_mesh_layer_5_mat_override_face_1___eye_half_v3_001_1[] = {
-	gsSPDisplayList(mat_pipecrawler_Mustache),
-	gsSPDisplayList(pipecrawler_000_displaylist_mesh_layer_5_tri_0),
-	gsSPDisplayList(mat_revert_pipecrawler_Mustache),
 	gsSPDisplayList(mat_pipecrawler_Eye),
-	gsSPDisplayList(pipecrawler_000_displaylist_mesh_layer_5_tri_1),
+	gsSPDisplayList(pipecrawler_000_displaylist_mesh_layer_5_tri_0),
 	gsSPDisplayList(mat_revert_pipecrawler_Eye),
 	gsSPDisplayList(mat_pipecrawler_Emblem),
-	gsSPDisplayList(pipecrawler_000_displaylist_mesh_layer_5_tri_2),
+	gsSPDisplayList(pipecrawler_000_displaylist_mesh_layer_5_tri_1),
 	gsSPDisplayList(mat_revert_pipecrawler_Emblem),
 	gsSPDisplayList(mat_pipecrawler_Sideburn),
-	gsSPDisplayList(pipecrawler_000_displaylist_mesh_layer_5_tri_3),
+	gsSPDisplayList(pipecrawler_000_displaylist_mesh_layer_5_tri_2),
 	gsSPDisplayList(mat_revert_pipecrawler_Sideburn),
 	gsSPDisplayList(mat_pipecrawler_Teeth),
-	gsSPDisplayList(pipecrawler_000_displaylist_mesh_layer_5_tri_4),
+	gsSPDisplayList(pipecrawler_000_displaylist_mesh_layer_5_tri_3),
 	gsSPDisplayList(mat_revert_pipecrawler_Teeth),
 	gsSPEndDisplayList(),
 };
 
 Gfx pipecrawler_000_displaylist_mesh_layer_5_mat_override_face_2___eye_closed_v3_001_2[] = {
-	gsSPDisplayList(mat_pipecrawler_Mustache),
-	gsSPDisplayList(pipecrawler_000_displaylist_mesh_layer_5_tri_0),
-	gsSPDisplayList(mat_revert_pipecrawler_Mustache),
 	gsSPDisplayList(mat_pipecrawler_Eye),
-	gsSPDisplayList(pipecrawler_000_displaylist_mesh_layer_5_tri_1),
+	gsSPDisplayList(pipecrawler_000_displaylist_mesh_layer_5_tri_0),
 	gsSPDisplayList(mat_revert_pipecrawler_Eye),
 	gsSPDisplayList(mat_pipecrawler_Emblem),
-	gsSPDisplayList(pipecrawler_000_displaylist_mesh_layer_5_tri_2),
+	gsSPDisplayList(pipecrawler_000_displaylist_mesh_layer_5_tri_1),
 	gsSPDisplayList(mat_revert_pipecrawler_Emblem),
 	gsSPDisplayList(mat_pipecrawler_Sideburn),
-	gsSPDisplayList(pipecrawler_000_displaylist_mesh_layer_5_tri_3),
+	gsSPDisplayList(pipecrawler_000_displaylist_mesh_layer_5_tri_2),
 	gsSPDisplayList(mat_revert_pipecrawler_Sideburn),
 	gsSPDisplayList(mat_pipecrawler_Teeth),
-	gsSPDisplayList(pipecrawler_000_displaylist_mesh_layer_5_tri_4),
+	gsSPDisplayList(pipecrawler_000_displaylist_mesh_layer_5_tri_3),
 	gsSPDisplayList(mat_revert_pipecrawler_Teeth),
 	gsSPEndDisplayList(),
 };
@@ -6921,21 +6939,53 @@ Gfx pipecrawler_002_switch_option_head_dead_mesh_layer_1_mat_override_face_7___e
 	gsSPEndDisplayList(),
 };
 
-Gfx pipecrawler_002_switch_option_head_dead_mesh_layer_5[] = {
+Gfx pipecrawler_002_switch_option_head_dead_mesh_layer_4[] = {
 	gsSPDisplayList(mat_pipecrawler_Mustache),
-	gsSPDisplayList(pipecrawler_002_switch_option_head_dead_mesh_layer_5_tri_0),
+	gsSPDisplayList(pipecrawler_002_switch_option_head_dead_mesh_layer_4_tri_0),
 	gsSPDisplayList(mat_revert_pipecrawler_Mustache),
+	gsSPEndDisplayList(),
+};
+
+Gfx pipecrawler_002_switch_option_head_dead_mesh_layer_4_mat_override_metal_v3_001_0[] = {
+	gsSPDisplayList(mat_pipecrawler_metal_v3_001),
+	gsSPDisplayList(pipecrawler_002_switch_option_head_dead_mesh_layer_4_tri_0),
+	gsSPDisplayList(mat_revert_pipecrawler_metal_v3_001),
+	gsSPEndDisplayList(),
+};
+
+Gfx pipecrawler_002_switch_option_head_dead_mesh_layer_4_mat_override_face_1___eye_half_v3_001_1[] = {
+	gsSPDisplayList(mat_pipecrawler_Mustache),
+	gsSPDisplayList(pipecrawler_002_switch_option_head_dead_mesh_layer_4_tri_0),
+	gsSPDisplayList(mat_revert_pipecrawler_Mustache),
+	gsSPEndDisplayList(),
+};
+
+Gfx pipecrawler_002_switch_option_head_dead_mesh_layer_4_mat_override_face_2___eye_closed_v3_001_2[] = {
+	gsSPDisplayList(mat_pipecrawler_Mustache),
+	gsSPDisplayList(pipecrawler_002_switch_option_head_dead_mesh_layer_4_tri_0),
+	gsSPDisplayList(mat_revert_pipecrawler_Mustache),
+	gsSPEndDisplayList(),
+};
+
+Gfx pipecrawler_002_switch_option_head_dead_mesh_layer_4_mat_override_face_7___eye_X_v3_001_3[] = {
+	gsSPDisplayList(mat_pipecrawler_Mustache),
+	gsSPDisplayList(pipecrawler_002_switch_option_head_dead_mesh_layer_4_tri_0),
+	gsSPDisplayList(mat_revert_pipecrawler_Mustache),
+	gsSPEndDisplayList(),
+};
+
+Gfx pipecrawler_002_switch_option_head_dead_mesh_layer_5[] = {
 	gsSPDisplayList(mat_pipecrawler_Eye),
-	gsSPDisplayList(pipecrawler_002_switch_option_head_dead_mesh_layer_5_tri_1),
+	gsSPDisplayList(pipecrawler_002_switch_option_head_dead_mesh_layer_5_tri_0),
 	gsSPDisplayList(mat_revert_pipecrawler_Eye),
 	gsSPDisplayList(mat_pipecrawler_Emblem),
-	gsSPDisplayList(pipecrawler_002_switch_option_head_dead_mesh_layer_5_tri_2),
+	gsSPDisplayList(pipecrawler_002_switch_option_head_dead_mesh_layer_5_tri_1),
 	gsSPDisplayList(mat_revert_pipecrawler_Emblem),
 	gsSPDisplayList(mat_pipecrawler_Sideburn),
-	gsSPDisplayList(pipecrawler_002_switch_option_head_dead_mesh_layer_5_tri_3),
+	gsSPDisplayList(pipecrawler_002_switch_option_head_dead_mesh_layer_5_tri_2),
 	gsSPDisplayList(mat_revert_pipecrawler_Sideburn),
 	gsSPDisplayList(mat_pipecrawler_Teeth),
-	gsSPDisplayList(pipecrawler_002_switch_option_head_dead_mesh_layer_5_tri_4),
+	gsSPDisplayList(pipecrawler_002_switch_option_head_dead_mesh_layer_5_tri_3),
 	gsSPDisplayList(mat_revert_pipecrawler_Teeth),
 	gsSPEndDisplayList(),
 };
@@ -6946,64 +6996,54 @@ Gfx pipecrawler_002_switch_option_head_dead_mesh_layer_5_mat_override_metal_v3_0
 	gsSPDisplayList(pipecrawler_002_switch_option_head_dead_mesh_layer_5_tri_1),
 	gsSPDisplayList(pipecrawler_002_switch_option_head_dead_mesh_layer_5_tri_2),
 	gsSPDisplayList(pipecrawler_002_switch_option_head_dead_mesh_layer_5_tri_3),
-	gsSPDisplayList(pipecrawler_002_switch_option_head_dead_mesh_layer_5_tri_4),
 	gsSPDisplayList(mat_revert_pipecrawler_metal_v3_001),
 	gsSPEndDisplayList(),
 };
 
 Gfx pipecrawler_002_switch_option_head_dead_mesh_layer_5_mat_override_face_1___eye_half_v3_001_1[] = {
-	gsSPDisplayList(mat_pipecrawler_Mustache),
-	gsSPDisplayList(pipecrawler_002_switch_option_head_dead_mesh_layer_5_tri_0),
-	gsSPDisplayList(mat_revert_pipecrawler_Mustache),
 	gsSPDisplayList(mat_pipecrawler_Eye),
-	gsSPDisplayList(pipecrawler_002_switch_option_head_dead_mesh_layer_5_tri_1),
+	gsSPDisplayList(pipecrawler_002_switch_option_head_dead_mesh_layer_5_tri_0),
 	gsSPDisplayList(mat_revert_pipecrawler_Eye),
 	gsSPDisplayList(mat_pipecrawler_Emblem),
-	gsSPDisplayList(pipecrawler_002_switch_option_head_dead_mesh_layer_5_tri_2),
+	gsSPDisplayList(pipecrawler_002_switch_option_head_dead_mesh_layer_5_tri_1),
 	gsSPDisplayList(mat_revert_pipecrawler_Emblem),
 	gsSPDisplayList(mat_pipecrawler_Sideburn),
-	gsSPDisplayList(pipecrawler_002_switch_option_head_dead_mesh_layer_5_tri_3),
+	gsSPDisplayList(pipecrawler_002_switch_option_head_dead_mesh_layer_5_tri_2),
 	gsSPDisplayList(mat_revert_pipecrawler_Sideburn),
 	gsSPDisplayList(mat_pipecrawler_Teeth),
-	gsSPDisplayList(pipecrawler_002_switch_option_head_dead_mesh_layer_5_tri_4),
+	gsSPDisplayList(pipecrawler_002_switch_option_head_dead_mesh_layer_5_tri_3),
 	gsSPDisplayList(mat_revert_pipecrawler_Teeth),
 	gsSPEndDisplayList(),
 };
 
 Gfx pipecrawler_002_switch_option_head_dead_mesh_layer_5_mat_override_face_2___eye_closed_v3_001_2[] = {
-	gsSPDisplayList(mat_pipecrawler_Mustache),
-	gsSPDisplayList(pipecrawler_002_switch_option_head_dead_mesh_layer_5_tri_0),
-	gsSPDisplayList(mat_revert_pipecrawler_Mustache),
 	gsSPDisplayList(mat_pipecrawler_Eye),
-	gsSPDisplayList(pipecrawler_002_switch_option_head_dead_mesh_layer_5_tri_1),
+	gsSPDisplayList(pipecrawler_002_switch_option_head_dead_mesh_layer_5_tri_0),
 	gsSPDisplayList(mat_revert_pipecrawler_Eye),
 	gsSPDisplayList(mat_pipecrawler_Emblem),
-	gsSPDisplayList(pipecrawler_002_switch_option_head_dead_mesh_layer_5_tri_2),
+	gsSPDisplayList(pipecrawler_002_switch_option_head_dead_mesh_layer_5_tri_1),
 	gsSPDisplayList(mat_revert_pipecrawler_Emblem),
 	gsSPDisplayList(mat_pipecrawler_Sideburn),
-	gsSPDisplayList(pipecrawler_002_switch_option_head_dead_mesh_layer_5_tri_3),
+	gsSPDisplayList(pipecrawler_002_switch_option_head_dead_mesh_layer_5_tri_2),
 	gsSPDisplayList(mat_revert_pipecrawler_Sideburn),
 	gsSPDisplayList(mat_pipecrawler_Teeth),
-	gsSPDisplayList(pipecrawler_002_switch_option_head_dead_mesh_layer_5_tri_4),
+	gsSPDisplayList(pipecrawler_002_switch_option_head_dead_mesh_layer_5_tri_3),
 	gsSPDisplayList(mat_revert_pipecrawler_Teeth),
 	gsSPEndDisplayList(),
 };
 
 Gfx pipecrawler_002_switch_option_head_dead_mesh_layer_5_mat_override_face_7___eye_X_v3_001_3[] = {
-	gsSPDisplayList(mat_pipecrawler_Mustache),
-	gsSPDisplayList(pipecrawler_002_switch_option_head_dead_mesh_layer_5_tri_0),
-	gsSPDisplayList(mat_revert_pipecrawler_Mustache),
 	gsSPDisplayList(mat_pipecrawler_Eye),
-	gsSPDisplayList(pipecrawler_002_switch_option_head_dead_mesh_layer_5_tri_1),
+	gsSPDisplayList(pipecrawler_002_switch_option_head_dead_mesh_layer_5_tri_0),
 	gsSPDisplayList(mat_revert_pipecrawler_Eye),
 	gsSPDisplayList(mat_pipecrawler_Emblem),
-	gsSPDisplayList(pipecrawler_002_switch_option_head_dead_mesh_layer_5_tri_2),
+	gsSPDisplayList(pipecrawler_002_switch_option_head_dead_mesh_layer_5_tri_1),
 	gsSPDisplayList(mat_revert_pipecrawler_Emblem),
 	gsSPDisplayList(mat_pipecrawler_Sideburn),
-	gsSPDisplayList(pipecrawler_002_switch_option_head_dead_mesh_layer_5_tri_3),
+	gsSPDisplayList(pipecrawler_002_switch_option_head_dead_mesh_layer_5_tri_2),
 	gsSPDisplayList(mat_revert_pipecrawler_Sideburn),
 	gsSPDisplayList(mat_pipecrawler_Teeth),
-	gsSPDisplayList(pipecrawler_002_switch_option_head_dead_mesh_layer_5_tri_4),
+	gsSPDisplayList(pipecrawler_002_switch_option_head_dead_mesh_layer_5_tri_3),
 	gsSPDisplayList(mat_revert_pipecrawler_Teeth),
 	gsSPEndDisplayList(),
 };
@@ -7056,18 +7096,43 @@ Gfx pipecrawler_002_switch_option_head__no_cap__mesh_layer_1_mat_override_face_2
 	gsSPEndDisplayList(),
 };
 
-Gfx pipecrawler_002_switch_option_head__no_cap__mesh_layer_5[] = {
+Gfx pipecrawler_002_switch_option_head__no_cap__mesh_layer_4[] = {
 	gsSPDisplayList(mat_pipecrawler_Mustache),
-	gsSPDisplayList(pipecrawler_002_switch_option_head__no_cap__mesh_layer_5_tri_0),
+	gsSPDisplayList(pipecrawler_002_switch_option_head__no_cap__mesh_layer_4_tri_0),
 	gsSPDisplayList(mat_revert_pipecrawler_Mustache),
+	gsSPEndDisplayList(),
+};
+
+Gfx pipecrawler_002_switch_option_head__no_cap__mesh_layer_4_mat_override_metal_v3_001_0[] = {
+	gsSPDisplayList(mat_pipecrawler_metal_v3_001),
+	gsSPDisplayList(pipecrawler_002_switch_option_head__no_cap__mesh_layer_4_tri_0),
+	gsSPDisplayList(mat_revert_pipecrawler_metal_v3_001),
+	gsSPEndDisplayList(),
+};
+
+Gfx pipecrawler_002_switch_option_head__no_cap__mesh_layer_4_mat_override_face_1___eye_half_v3_001_1[] = {
+	gsSPDisplayList(mat_pipecrawler_Mustache),
+	gsSPDisplayList(pipecrawler_002_switch_option_head__no_cap__mesh_layer_4_tri_0),
+	gsSPDisplayList(mat_revert_pipecrawler_Mustache),
+	gsSPEndDisplayList(),
+};
+
+Gfx pipecrawler_002_switch_option_head__no_cap__mesh_layer_4_mat_override_face_2___eye_closed_v3_001_2[] = {
+	gsSPDisplayList(mat_pipecrawler_Mustache),
+	gsSPDisplayList(pipecrawler_002_switch_option_head__no_cap__mesh_layer_4_tri_0),
+	gsSPDisplayList(mat_revert_pipecrawler_Mustache),
+	gsSPEndDisplayList(),
+};
+
+Gfx pipecrawler_002_switch_option_head__no_cap__mesh_layer_5[] = {
 	gsSPDisplayList(mat_pipecrawler_Eye),
-	gsSPDisplayList(pipecrawler_002_switch_option_head__no_cap__mesh_layer_5_tri_1),
+	gsSPDisplayList(pipecrawler_002_switch_option_head__no_cap__mesh_layer_5_tri_0),
 	gsSPDisplayList(mat_revert_pipecrawler_Eye),
 	gsSPDisplayList(mat_pipecrawler_Sideburn),
-	gsSPDisplayList(pipecrawler_002_switch_option_head__no_cap__mesh_layer_5_tri_2),
+	gsSPDisplayList(pipecrawler_002_switch_option_head__no_cap__mesh_layer_5_tri_1),
 	gsSPDisplayList(mat_revert_pipecrawler_Sideburn),
 	gsSPDisplayList(mat_pipecrawler_Teeth),
-	gsSPDisplayList(pipecrawler_002_switch_option_head__no_cap__mesh_layer_5_tri_3),
+	gsSPDisplayList(pipecrawler_002_switch_option_head__no_cap__mesh_layer_5_tri_2),
 	gsSPDisplayList(mat_revert_pipecrawler_Teeth),
 	gsSPEndDisplayList(),
 };
@@ -7077,39 +7142,32 @@ Gfx pipecrawler_002_switch_option_head__no_cap__mesh_layer_5_mat_override_metal_
 	gsSPDisplayList(pipecrawler_002_switch_option_head__no_cap__mesh_layer_5_tri_0),
 	gsSPDisplayList(pipecrawler_002_switch_option_head__no_cap__mesh_layer_5_tri_1),
 	gsSPDisplayList(pipecrawler_002_switch_option_head__no_cap__mesh_layer_5_tri_2),
-	gsSPDisplayList(pipecrawler_002_switch_option_head__no_cap__mesh_layer_5_tri_3),
 	gsSPDisplayList(mat_revert_pipecrawler_metal_v3_001),
 	gsSPEndDisplayList(),
 };
 
 Gfx pipecrawler_002_switch_option_head__no_cap__mesh_layer_5_mat_override_face_1___eye_half_v3_001_1[] = {
-	gsSPDisplayList(mat_pipecrawler_Mustache),
-	gsSPDisplayList(pipecrawler_002_switch_option_head__no_cap__mesh_layer_5_tri_0),
-	gsSPDisplayList(mat_revert_pipecrawler_Mustache),
 	gsSPDisplayList(mat_pipecrawler_Eye),
-	gsSPDisplayList(pipecrawler_002_switch_option_head__no_cap__mesh_layer_5_tri_1),
+	gsSPDisplayList(pipecrawler_002_switch_option_head__no_cap__mesh_layer_5_tri_0),
 	gsSPDisplayList(mat_revert_pipecrawler_Eye),
 	gsSPDisplayList(mat_pipecrawler_Sideburn),
-	gsSPDisplayList(pipecrawler_002_switch_option_head__no_cap__mesh_layer_5_tri_2),
+	gsSPDisplayList(pipecrawler_002_switch_option_head__no_cap__mesh_layer_5_tri_1),
 	gsSPDisplayList(mat_revert_pipecrawler_Sideburn),
 	gsSPDisplayList(mat_pipecrawler_Teeth),
-	gsSPDisplayList(pipecrawler_002_switch_option_head__no_cap__mesh_layer_5_tri_3),
+	gsSPDisplayList(pipecrawler_002_switch_option_head__no_cap__mesh_layer_5_tri_2),
 	gsSPDisplayList(mat_revert_pipecrawler_Teeth),
 	gsSPEndDisplayList(),
 };
 
 Gfx pipecrawler_002_switch_option_head__no_cap__mesh_layer_5_mat_override_face_2___eye_closed_v3_001_2[] = {
-	gsSPDisplayList(mat_pipecrawler_Mustache),
-	gsSPDisplayList(pipecrawler_002_switch_option_head__no_cap__mesh_layer_5_tri_0),
-	gsSPDisplayList(mat_revert_pipecrawler_Mustache),
 	gsSPDisplayList(mat_pipecrawler_Eye),
-	gsSPDisplayList(pipecrawler_002_switch_option_head__no_cap__mesh_layer_5_tri_1),
+	gsSPDisplayList(pipecrawler_002_switch_option_head__no_cap__mesh_layer_5_tri_0),
 	gsSPDisplayList(mat_revert_pipecrawler_Eye),
 	gsSPDisplayList(mat_pipecrawler_Sideburn),
-	gsSPDisplayList(pipecrawler_002_switch_option_head__no_cap__mesh_layer_5_tri_2),
+	gsSPDisplayList(pipecrawler_002_switch_option_head__no_cap__mesh_layer_5_tri_1),
 	gsSPDisplayList(mat_revert_pipecrawler_Sideburn),
 	gsSPDisplayList(mat_pipecrawler_Teeth),
-	gsSPDisplayList(pipecrawler_002_switch_option_head__no_cap__mesh_layer_5_tri_3),
+	gsSPDisplayList(pipecrawler_002_switch_option_head__no_cap__mesh_layer_5_tri_2),
 	gsSPDisplayList(mat_revert_pipecrawler_Teeth),
 	gsSPEndDisplayList(),
 };
@@ -7175,18 +7233,50 @@ Gfx pipecrawler_002_switch_option_002_switch_option_head_dead_no_cap_mesh_layer_
 	gsSPEndDisplayList(),
 };
 
-Gfx pipecrawler_002_switch_option_002_switch_option_head_dead_no_cap_mesh_layer_5[] = {
+Gfx pipecrawler_002_switch_option_002_switch_option_head_dead_no_cap_mesh_layer_4[] = {
 	gsSPDisplayList(mat_pipecrawler_Mustache),
-	gsSPDisplayList(pipecrawler_002_switch_option_002_switch_option_head_dead_no_cap_mesh_layer_5_tri_0),
+	gsSPDisplayList(pipecrawler_002_switch_option_002_switch_option_head_dead_no_cap_mesh_layer_4_tri_0),
 	gsSPDisplayList(mat_revert_pipecrawler_Mustache),
+	gsSPEndDisplayList(),
+};
+
+Gfx pipecrawler_002_switch_option_002_switch_option_head_dead_no_cap_mesh_layer_4_mat_override_metal_v3_001_0[] = {
+	gsSPDisplayList(mat_pipecrawler_metal_v3_001),
+	gsSPDisplayList(pipecrawler_002_switch_option_002_switch_option_head_dead_no_cap_mesh_layer_4_tri_0),
+	gsSPDisplayList(mat_revert_pipecrawler_metal_v3_001),
+	gsSPEndDisplayList(),
+};
+
+Gfx pipecrawler_002_switch_option_002_switch_option_head_dead_no_cap_mesh_layer_4_mat_override_face_1___eye_half_v3_001_1[] = {
+	gsSPDisplayList(mat_pipecrawler_Mustache),
+	gsSPDisplayList(pipecrawler_002_switch_option_002_switch_option_head_dead_no_cap_mesh_layer_4_tri_0),
+	gsSPDisplayList(mat_revert_pipecrawler_Mustache),
+	gsSPEndDisplayList(),
+};
+
+Gfx pipecrawler_002_switch_option_002_switch_option_head_dead_no_cap_mesh_layer_4_mat_override_face_2___eye_closed_v3_001_2[] = {
+	gsSPDisplayList(mat_pipecrawler_Mustache),
+	gsSPDisplayList(pipecrawler_002_switch_option_002_switch_option_head_dead_no_cap_mesh_layer_4_tri_0),
+	gsSPDisplayList(mat_revert_pipecrawler_Mustache),
+	gsSPEndDisplayList(),
+};
+
+Gfx pipecrawler_002_switch_option_002_switch_option_head_dead_no_cap_mesh_layer_4_mat_override_face_7___eye_X_v3_001_3[] = {
+	gsSPDisplayList(mat_pipecrawler_Mustache),
+	gsSPDisplayList(pipecrawler_002_switch_option_002_switch_option_head_dead_no_cap_mesh_layer_4_tri_0),
+	gsSPDisplayList(mat_revert_pipecrawler_Mustache),
+	gsSPEndDisplayList(),
+};
+
+Gfx pipecrawler_002_switch_option_002_switch_option_head_dead_no_cap_mesh_layer_5[] = {
 	gsSPDisplayList(mat_pipecrawler_Eye),
-	gsSPDisplayList(pipecrawler_002_switch_option_002_switch_option_head_dead_no_cap_mesh_layer_5_tri_1),
+	gsSPDisplayList(pipecrawler_002_switch_option_002_switch_option_head_dead_no_cap_mesh_layer_5_tri_0),
 	gsSPDisplayList(mat_revert_pipecrawler_Eye),
 	gsSPDisplayList(mat_pipecrawler_Sideburn),
-	gsSPDisplayList(pipecrawler_002_switch_option_002_switch_option_head_dead_no_cap_mesh_layer_5_tri_2),
+	gsSPDisplayList(pipecrawler_002_switch_option_002_switch_option_head_dead_no_cap_mesh_layer_5_tri_1),
 	gsSPDisplayList(mat_revert_pipecrawler_Sideburn),
 	gsSPDisplayList(mat_pipecrawler_Teeth),
-	gsSPDisplayList(pipecrawler_002_switch_option_002_switch_option_head_dead_no_cap_mesh_layer_5_tri_3),
+	gsSPDisplayList(pipecrawler_002_switch_option_002_switch_option_head_dead_no_cap_mesh_layer_5_tri_2),
 	gsSPDisplayList(mat_revert_pipecrawler_Teeth),
 	gsSPEndDisplayList(),
 };
@@ -7196,55 +7286,45 @@ Gfx pipecrawler_002_switch_option_002_switch_option_head_dead_no_cap_mesh_layer_
 	gsSPDisplayList(pipecrawler_002_switch_option_002_switch_option_head_dead_no_cap_mesh_layer_5_tri_0),
 	gsSPDisplayList(pipecrawler_002_switch_option_002_switch_option_head_dead_no_cap_mesh_layer_5_tri_1),
 	gsSPDisplayList(pipecrawler_002_switch_option_002_switch_option_head_dead_no_cap_mesh_layer_5_tri_2),
-	gsSPDisplayList(pipecrawler_002_switch_option_002_switch_option_head_dead_no_cap_mesh_layer_5_tri_3),
 	gsSPDisplayList(mat_revert_pipecrawler_metal_v3_001),
 	gsSPEndDisplayList(),
 };
 
 Gfx pipecrawler_002_switch_option_002_switch_option_head_dead_no_cap_mesh_layer_5_mat_override_face_1___eye_half_v3_001_1[] = {
-	gsSPDisplayList(mat_pipecrawler_Mustache),
-	gsSPDisplayList(pipecrawler_002_switch_option_002_switch_option_head_dead_no_cap_mesh_layer_5_tri_0),
-	gsSPDisplayList(mat_revert_pipecrawler_Mustache),
 	gsSPDisplayList(mat_pipecrawler_Eye),
-	gsSPDisplayList(pipecrawler_002_switch_option_002_switch_option_head_dead_no_cap_mesh_layer_5_tri_1),
+	gsSPDisplayList(pipecrawler_002_switch_option_002_switch_option_head_dead_no_cap_mesh_layer_5_tri_0),
 	gsSPDisplayList(mat_revert_pipecrawler_Eye),
 	gsSPDisplayList(mat_pipecrawler_Sideburn),
-	gsSPDisplayList(pipecrawler_002_switch_option_002_switch_option_head_dead_no_cap_mesh_layer_5_tri_2),
+	gsSPDisplayList(pipecrawler_002_switch_option_002_switch_option_head_dead_no_cap_mesh_layer_5_tri_1),
 	gsSPDisplayList(mat_revert_pipecrawler_Sideburn),
 	gsSPDisplayList(mat_pipecrawler_Teeth),
-	gsSPDisplayList(pipecrawler_002_switch_option_002_switch_option_head_dead_no_cap_mesh_layer_5_tri_3),
+	gsSPDisplayList(pipecrawler_002_switch_option_002_switch_option_head_dead_no_cap_mesh_layer_5_tri_2),
 	gsSPDisplayList(mat_revert_pipecrawler_Teeth),
 	gsSPEndDisplayList(),
 };
 
 Gfx pipecrawler_002_switch_option_002_switch_option_head_dead_no_cap_mesh_layer_5_mat_override_face_2___eye_closed_v3_001_2[] = {
-	gsSPDisplayList(mat_pipecrawler_Mustache),
-	gsSPDisplayList(pipecrawler_002_switch_option_002_switch_option_head_dead_no_cap_mesh_layer_5_tri_0),
-	gsSPDisplayList(mat_revert_pipecrawler_Mustache),
 	gsSPDisplayList(mat_pipecrawler_Eye),
-	gsSPDisplayList(pipecrawler_002_switch_option_002_switch_option_head_dead_no_cap_mesh_layer_5_tri_1),
+	gsSPDisplayList(pipecrawler_002_switch_option_002_switch_option_head_dead_no_cap_mesh_layer_5_tri_0),
 	gsSPDisplayList(mat_revert_pipecrawler_Eye),
 	gsSPDisplayList(mat_pipecrawler_Sideburn),
-	gsSPDisplayList(pipecrawler_002_switch_option_002_switch_option_head_dead_no_cap_mesh_layer_5_tri_2),
+	gsSPDisplayList(pipecrawler_002_switch_option_002_switch_option_head_dead_no_cap_mesh_layer_5_tri_1),
 	gsSPDisplayList(mat_revert_pipecrawler_Sideburn),
 	gsSPDisplayList(mat_pipecrawler_Teeth),
-	gsSPDisplayList(pipecrawler_002_switch_option_002_switch_option_head_dead_no_cap_mesh_layer_5_tri_3),
+	gsSPDisplayList(pipecrawler_002_switch_option_002_switch_option_head_dead_no_cap_mesh_layer_5_tri_2),
 	gsSPDisplayList(mat_revert_pipecrawler_Teeth),
 	gsSPEndDisplayList(),
 };
 
 Gfx pipecrawler_002_switch_option_002_switch_option_head_dead_no_cap_mesh_layer_5_mat_override_face_7___eye_X_v3_001_3[] = {
-	gsSPDisplayList(mat_pipecrawler_Mustache),
-	gsSPDisplayList(pipecrawler_002_switch_option_002_switch_option_head_dead_no_cap_mesh_layer_5_tri_0),
-	gsSPDisplayList(mat_revert_pipecrawler_Mustache),
 	gsSPDisplayList(mat_pipecrawler_Eye),
-	gsSPDisplayList(pipecrawler_002_switch_option_002_switch_option_head_dead_no_cap_mesh_layer_5_tri_1),
+	gsSPDisplayList(pipecrawler_002_switch_option_002_switch_option_head_dead_no_cap_mesh_layer_5_tri_0),
 	gsSPDisplayList(mat_revert_pipecrawler_Eye),
 	gsSPDisplayList(mat_pipecrawler_Sideburn),
-	gsSPDisplayList(pipecrawler_002_switch_option_002_switch_option_head_dead_no_cap_mesh_layer_5_tri_2),
+	gsSPDisplayList(pipecrawler_002_switch_option_002_switch_option_head_dead_no_cap_mesh_layer_5_tri_1),
 	gsSPDisplayList(mat_revert_pipecrawler_Sideburn),
 	gsSPDisplayList(mat_pipecrawler_Teeth),
-	gsSPDisplayList(pipecrawler_002_switch_option_002_switch_option_head_dead_no_cap_mesh_layer_5_tri_3),
+	gsSPDisplayList(pipecrawler_002_switch_option_002_switch_option_head_dead_no_cap_mesh_layer_5_tri_2),
 	gsSPDisplayList(mat_revert_pipecrawler_Teeth),
 	gsSPEndDisplayList(),
 };
