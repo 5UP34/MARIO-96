@@ -1,5 +1,5 @@
 -- name: [CS] MARIO '96
--- description: The OFFICIAL \\#8B0000\\MARIO '85\\#FFFFFF\\ in \\#FF0000\\S\\#007FFF\\M\\#00FF00\\6\\#FFFF00\\4\\#FFFFFF\\ Character Select Pack!\n\nCommands:\n/hud96 [on|off] - toggle the custom hud\n\nCredits:\nModels by \\#007FFF\\5UP34\\#FFFFFF\\\nCode by \\#CA8DFE\\DM-kun\\#FFFFFF\\ and \\#06402B\\Squishy\\#FFFFFF\\\nVoice Acting By Sunset + The Hall Monitor\nCharacters Owned by RazzDazzleDoo\n\\#ffffff\\\n\nThis Pack requires Character Select to use as a Library!
+-- description: The OFFICIAL \\#8B0000\\MARIO '85\\#FFFFFF\\ in \\#FF0000\\S\\#007FFF\\M\\#00FF00\\6\\#FFFF00\\4\\#FFFFFF\\ Character Select Pack!\n\nCredits:\nModels by \\#007FFF\\5UP34\\#FFFFFF\\\nCode by \\#CA8DFE\\DM-kun\\#FFFFFF\\ and \\#06402B\\Squishy\\#FFFFFF\\\nVoice Acting By Sunset + The Hall Monitor\nCharacters Owned by RazzDazzleDoo\n\\#ffffff\\\n\nThis Pack requires Character Select to use as a Library!
 
 local TEXT_MOD_NAME = "MARIO '96 Pack"
 
