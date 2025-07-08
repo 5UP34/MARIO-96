@@ -77,7 +77,7 @@ local fontInfoNES = { -- Maps textures in a spritesheet to letters
 -- Font can use a unique variable, or an existing font to overwrite it
 FONT_NES = djui_hud_add_font(get_texture_info("NES-Font"), fontInfoNES, 1, 0, "x", 1)
 
-	---@param levelname string
+---@param levelname string
 local function string_abbriviate(levelname)
 	local s = ''
 	local space = true
@@ -127,6 +127,7 @@ end
 local TEX_ICONS = get_texture_info("NES-Icons")
 
 local SOUND_WARNING = audio_stream_load("generic_warning.ogg")
+local SOUND_MOVE = audio_stream_load("generic_beep.ogg")
 
 local TEXT_WORLD = "WORLD"
 local TEXT_TIME = "TIME"
@@ -159,7 +160,9 @@ local function smb1_hud()
 
 	local m = gMarioStates[0]
 	local np = gNetworkPlayers[0]
-	local charTable = _G.charSelect.character_get_current_table()
+	local char = _G.charSelect.character_get_current_number(0)
+	local costume = _G.charSelect.character_get_current_costume(0)
+	local charTable = _G.charSelect.character_get_current_table(char, costume)
 
 	hud_hide()
 	djui_hud_set_resolution(RESOLUTION_N64)
@@ -374,10 +377,12 @@ local function smb1_star_select_inputs(m)
 	end
 	if inputStallTimerDirectional == 0 then
 		if (m.controller.buttonPressed & R_JPAD) ~= 0 or m.controller.stickX > 60 then
+			audio_stream_play(SOUND_MOVE, true, 1)
 			starHover = math_min(starHover + 1, maxStars)
 			inputStallTimerDirectional = inputStallToDirectional
 		end
 		if (m.controller.buttonPressed & L_JPAD) ~= 0 or m.controller.stickX < -60 then
+			audio_stream_play(SOUND_MOVE, true, 1)
 			starHover = math_max(starHover - 1, 1)
 			inputStallTimerDirectional = inputStallToDirectional
 		end
