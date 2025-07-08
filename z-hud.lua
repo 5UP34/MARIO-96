@@ -1,3 +1,5 @@
+if not _G.charSelectExists then return end
+
 --------------------------
 -- MARIO '85 / SMB1 HUD --
 ----- by Squishy6094 -----
