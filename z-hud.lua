@@ -8,14 +8,6 @@ if not _G.charSelectExists then return end
 -- localize functions to improve performance - hud.lua
 local string_lower,string_upper,math_floor,math_ceil,audio_stream_load,hud_hide,djui_hud_set_resolution,djui_hud_get_screen_width,hud_get_value,tostring,get_level_name,audio_stream_play,djui_hud_set_font,djui_hud_set_color,djui_hud_print_text,max,math_max,math_sin,djui_hud_measure_text,set_mario_action,get_current_save_file_num,djui_hud_render_rect,get_star_name,save_file_get_star_flags,min,math_min,save_file_get_course_coin_score,play_secondary_music,warp_to_level,stop_secondary_music,obj_get_first_with_behavior_id = string.lower,string.upper,math.floor,math.ceil,audio_stream_load,hud_hide,djui_hud_set_resolution,djui_hud_get_screen_width,hud_get_value,tostring,get_level_name,audio_stream_play,djui_hud_set_font,djui_hud_set_color,djui_hud_print_text,max,math.max,math.sin,djui_hud_measure_text,set_mario_action,get_current_save_file_num,djui_hud_render_rect,get_star_name,save_file_get_star_flags,min,math.min,save_file_get_course_coin_score,play_secondary_music,warp_to_level,stop_secondary_music,obj_get_first_with_behavior_id
 
-local ommActive = false
-for i in pairs(gActiveMods) do
-	if gActiveMods[i].relativePath == "omm-coop" then
-		ommActive = true
-		break
-	end
-end
-
 local gamemode = false
 for i in pairs(gActiveMods) do
 	if gActiveMods[i].incompatible == "gamemode" and gActiveMods[i].name ~= "Personal Star Counter" then
@@ -421,7 +413,7 @@ local function act_select()
 	if _G.charSelect.get_options_status(OPTION_STAR_SELECT) == 0 then return end
 	if not hud_allow_smb1() then return end
 	if gamemode then return end
-	if ommActive then return end
+	if _G.OmmEnabled == true then return end
 	actSelect = true
 	starHover = 1
 	inputStallTimerButton = inputStallToButton

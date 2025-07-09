@@ -1,5 +1,5 @@
 -- name: [CS] MARIO '96
--- description: The OFFICIAL \\#8B0000\\MARIO '85\\#FFFFFF\\ in \\#FF0000\\S\\#007FFF\\M\\#00FF00\\6\\#FFFF00\\4\\#FFFFFF\\ Character Select Pack!\n\nCredits:\nModels by \\#007FFF\\5UP34\\#FFFFFF\\\nCode by \\#CA8DFE\\DM-kun\\#FFFFFF\\ and \\#06402B\\Squishy\\#FFFFFF\\\nVoice Acting By Sunset + The Hall Monitor\nCharacters Owned by RazzDazzleDoo\n\\#ffffff\\\n\nThis Pack requires Character Select to use as a Library!
+-- description: The OFFICIAL \\#8B0000\\MARIO '85\\#FFFFFF\\ in \\#FF0000\\S\\#007FFF\\M\\#00FF00\\6\\#FFFF00\\4\\#FFFFFF\\ Character Select Pack!\n\nCredits:\nModels by \\#007FFF\\5UP34\\#FFFFFF\\\nCode by \\#CA8DFE\\DM-kun\\#FFFFFF\\ and \\#06402B\\Squishy\\#FFFFFF\\\nVoice Acting By Sunset and The Hall Monitor\nCharacters Owned by RazzDazzleDoo\n\\#ffffff\\\n\nThis Pack requires Character Select to use as a Library!
 
 local TEXT_MOD_NAME = "MARIO '96 Pack"
 
@@ -308,11 +308,6 @@ local ANIMS_MX = {
 	[CHAR_ANIM_LAND_FROM_SINGLE_JUMP] = MX_ANIM_JUMP_LAND
 }
 
-CT_LUCAS = nil
-CT_FH = nil
-CT_PC = nil
-CT_MX = nil
-
 local CSloaded = false
 local function on_character_select_load()
 	CT_LUCAS = _G.charSelect.character_add("Lucas", {"GET ME OUTTA HERE!"}, "5UP, Razz and Hall Monitor", {r = 0, g = 225, b = 0}, E_MODEL_LUCAS, CT_MARIO, TEX_LUCAS, 0.8)
@@ -360,11 +355,3 @@ local function on_character_select_load()
 end
 
 hook_event(HOOK_ON_MODS_LOADED, on_character_select_load)
-
-function character_is_85()
-	local char = _G.charSelect.character_get_current_number(0)
-	if char ~= CT_LUCAS and char ~= CT_FH and char ~= CT_PC and char ~= CT_MX then
-		return false
-	end
-	return true
-end
