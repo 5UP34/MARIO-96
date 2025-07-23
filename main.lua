@@ -313,8 +313,8 @@ local CSloaded = false
 local function on_character_select_load()
 	CT_LUCAS = _G.charSelect.character_add("Lucas", {"GET ME OUTTA HERE!"}, "5UP, Razz and Hall Monitor", {r = 0, g = 225, b = 0}, E_MODEL_LUCAS, CT_MARIO, TEX_LUCAS, 0.8)
 	CT_FH = _G.charSelect.character_add("False Hero", {"Heya bro!", "It's just-a me!"}, "5UP, Razz and Sunset", {r = 225, g = 0, b = 0}, E_MODEL_FH, CT_MARIO, TEX_FH)
-	CT_PC = _G.charSelect.character_add("Pipe Crawler", {"FALLEN FOR MY DECEIT,", "I WILL TEAR YOU TO PIECES."}, "5UP, Razz and Sunset", {r = 156, g = 132, b = 99}, E_MODEL_PC, CT_MARIO, TEX_PC)
-	CT_MX = _G.charSelect.character_add("MX", {"IT'S FUN, ISN'T IT?", "PLAYING AROUND HERE."}, "5UP, Razz and Sunset", {r = 100, g = 0, b = 0}, E_MODEL_MX, CT_MARIO, TEX_MX, 1.4)
+	CT_PC = _G.charSelect.character_add("Pipe Crawler", {"FALLEN FOR MY DECEIT,", "I WILL TEAR YOU TO PIECES."}, "5UP, Razz and Sunset", {r = 156, g = 132, b = 99}, E_MODEL_PC, CT_MARIO, TEX_PC, 1.2)
+	CT_MX = _G.charSelect.character_add("MX", {"IT'S FUN, ISN'T IT?", "PLAYING AROUND HERE."}, "5UP, Razz and Sunset", {r = 100, g = 0, b = 0}, E_MODEL_MX, CT_MARIO, TEX_MX, 1.8)
 
 	_G.charSelect.character_add_animations(E_MODEL_LUCAS, ANIMS_LUCAS)
 	_G.charSelect.character_add_animations(E_MODEL_FH, ANIMS_FH)
