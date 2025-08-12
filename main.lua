@@ -1,6 +1,8 @@
 -- name: [CS] MARIO '96
 -- description: The OFFICIAL \\#8B0000\\MARIO '85\\#FFFFFF\\ in \\#FF0000\\S\\#007FFF\\M\\#00FF00\\6\\#FFFF00\\4\\#FFFFFF\\ Character Select Pack!\n\nCredits:\nModels by \\#007FFF\\5UP34\\#FFFFFF\\\nCode by \\#CA8DFE\\DM-kun\\#FFFFFF\\ and \\#06402B\\Squishy\\#FFFFFF\\\nVoice Acting By Sunset and The Hall Monitor\nCharacters Owned by RazzDazzleDoo\n\\#ffffff\\\n\nThis Pack requires Character Select to use as a Library!
 -- category: cs
+-- version: 2.1
+-- link: https://mods.sm64coopdx.com/mods/cs-mario-96.357
 
 local TEXT_MOD_NAME = "MARIO '96 Pack"
 
@@ -14,10 +16,10 @@ local E_MODEL_FH = smlua_model_util_get_id("falsehero_geo")
 local E_MODEL_PC = smlua_model_util_get_id("pipecrawler_geo")
 local E_MODEL_MX = smlua_model_util_get_id("mx_geo")
 
-local TEX_LUCAS = get_texture_info("icon_lucas")
-local TEX_FH = get_texture_info("icon_fh")
-local TEX_PC = get_texture_info("icon_pc")
-local TEX_MX = get_texture_info("icon_mx")
+local TEX_ICON_LUCAS = get_texture_info("icon_lucas")
+local TEX_ICON_FH = get_texture_info("icon_fh")
+local TEX_ICON_PC = get_texture_info("icon_pc")
+local TEX_ICON_MX = get_texture_info("icon_mx")
 
 --[[ -- Uncomment when there's actual cap models - DM --
 local CAPTABLE_LUCAS = {
@@ -309,17 +311,55 @@ local ANIMS_MX = {
 	[CHAR_ANIM_LAND_FROM_SINGLE_JUMP] = MX_ANIM_JUMP_LAND
 }
 
+-- local TEX_GRAFFITI_LUCAS = get_texture_info("graffiti_lucas")
+-- local TEX_GRAFFITI_MX = get_texture_info("graffiti_mx")
+
 local CSloaded = false
 local function on_character_select_load()
-	CT_LUCAS = _G.charSelect.character_add("Lucas", {"GET ME OUTTA HERE!"}, "5UP, Razz and Hall Monitor", {r = 0, g = 225, b = 0}, E_MODEL_LUCAS, CT_MARIO, TEX_LUCAS, 0.8)
-	CT_FH = _G.charSelect.character_add("False Hero", {"Heya bro!", "It's just-a me!"}, "5UP, Razz and Sunset", {r = 225, g = 0, b = 0}, E_MODEL_FH, CT_MARIO, TEX_FH)
-	CT_PC = _G.charSelect.character_add("Pipe Crawler", {"FALLEN FOR MY DECEIT,", "I WILL TEAR YOU TO PIECES."}, "5UP, Razz and Sunset", {r = 156, g = 132, b = 99}, E_MODEL_PC, CT_MARIO, TEX_PC, 1.2)
-	CT_MX = _G.charSelect.character_add("MX", {"IT'S FUN, ISN'T IT?", "PLAYING AROUND HERE."}, "5UP, Razz and Sunset", {r = 100, g = 0, b = 0}, E_MODEL_MX, CT_MARIO, TEX_MX, 1.8)
+	CT_LUCAS = _G.charSelect.character_add(
+		"Lucas",
+		{"GET ME OUTTA HERE!"},
+		"5UP, Razz / VA: Hall Monitor",
+		{r = 0, g = 225, b = 0},
+		E_MODEL_LUCAS,
+		CT_MARIO,
+		TEX_ICON_LUCAS,
+		0.8
+	)
 
-	_G.charSelect.character_add_animations(E_MODEL_LUCAS, ANIMS_LUCAS)
-	_G.charSelect.character_add_animations(E_MODEL_FH, ANIMS_FH)
-	_G.charSelect.character_add_animations(E_MODEL_PC, ANIMS_PC)
-	_G.charSelect.character_add_animations(E_MODEL_MX, ANIMS_MX)
+	CT_MX = _G.charSelect.character_add(
+		"False Hero",
+		{"Heya bro!", "It's just-a me!"},
+		"5UP, Razz / VA: Sunset",
+		{r = 225, g = 0, b = 0},
+		E_MODEL_FH,
+		CT_MARIO,
+		TEX_ICON_FH
+	)
+
+	_G.charSelect.character_add_costume(
+		CT_MX,
+		"Pipe Crawler",
+		{"FALLEN FOR MY DECEIT,", "I WILL TEAR YOU TO PIECES."},
+		"5UP, Razz / VA: Sunset",
+		{r = 156, g = 132, b = 99},
+		E_MODEL_PC,
+		CT_MARIO,
+		TEX_ICON_PC,
+		1.2
+	)
+
+	_G.charSelect.character_add_costume(
+		CT_MX,
+		"MX",
+		{"IT'S FUN, ISN'T IT?", "PLAYING AROUND HERE."},
+		"5UP, Razz / VA: Sunset",
+		{r = 100, g = 0, b = 0},
+		E_MODEL_MX,
+		CT_MARIO,
+		TEX_ICON_MX,
+		1.8
+	)
 
 	--[[ -- Uncomment when there's actual cap models - DM --
 	_G.charSelect.character_add_caps(E_MODEL_LUCAS, CAPTABLE_LUCAS)
@@ -340,9 +380,15 @@ local function on_character_select_load()
 	_G.charSelect.character_add_palette_preset(E_MODEL_PC, PALETTE_PC)
 	_G.charSelect.character_add_palette_preset(E_MODEL_MX, PALETTE_MX)
 
+	_G.charSelect.character_add_animations(E_MODEL_LUCAS, ANIMS_LUCAS)
+	_G.charSelect.character_add_animations(E_MODEL_FH, ANIMS_FH)
+	_G.charSelect.character_add_animations(E_MODEL_PC, ANIMS_PC)
+	_G.charSelect.character_add_animations(E_MODEL_MX, ANIMS_MX)
+
+	-- _G.charSelect.character_add_graffiti(CT_LUCAS, TEX_GRAFFITI_LUCAS)
+	-- _G.charSelect.character_add_graffiti(CT_MX, TEX_GRAFFITI_MX)
+
 	_G.charSelect.character_set_category(CT_LUCAS, TEXT_MOD_NAME)
-	_G.charSelect.character_set_category(CT_FH, TEXT_MOD_NAME)
-	_G.charSelect.character_set_category(CT_PC, TEXT_MOD_NAME)
 	_G.charSelect.character_set_category(CT_MX, TEXT_MOD_NAME)
 
 	_G.charSelect.credit_add(TEXT_MOD_NAME, "5UP34", "Model Creator")
