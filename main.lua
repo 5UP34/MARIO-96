@@ -373,8 +373,6 @@ local function on_character_select_load()
 	_G.charSelect.character_add_voice(E_MODEL_PC, VOICETABLE_PC)
 	_G.charSelect.character_add_voice(E_MODEL_MX, VOICETABLE_MX)
 
-	_G.charSelect.config_character_sounds()
-
 	_G.charSelect.character_add_palette_preset(E_MODEL_LUCAS, PALETTE_LUCAS)
 	_G.charSelect.character_add_palette_preset(E_MODEL_FH, PALETTE_FH)
 	_G.charSelect.character_add_palette_preset(E_MODEL_PC, PALETTE_PC)

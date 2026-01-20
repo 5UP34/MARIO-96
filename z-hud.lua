@@ -152,16 +152,18 @@ local function smb1_hud()
 
 	local m = gMarioStates[0]
 	local np = gNetworkPlayers[0]
-	local char = _G.charSelect.character_get_current_number(0)
-	local costume = _G.charSelect.character_get_current_costume(0)
-	local charTable = _G.charSelect.character_get_current_table(char, costume)
+	local charNum = _G.charSelect.character_get_current_number(0)
+	local charCostume = _G.charSelect.character_get_current_costume(0)
+	local charTable = _G.charSelect.character_get_current_table(charNum, charCostume)
+	local charNickname = _G.charSelect.character_get_nickname(charNum)
+	local charFinalName = charNickname ~= nil and charNickname or charTable.name
 
 	hud_hide()
 	djui_hud_set_resolution(RESOLUTION_N64)
 	local width = djui_hud_get_screen_width()
 	local timeToggle = _G.charSelect.get_options_status(OPTION_TIMER)
 
-	local TEXT_NAME = string_upper(charTable.name)
+	local TEXT_NAME = string_upper(charFinalName)
 	local TEXT_STARS = string.format("%02d", tostring(hud_get_value(HUD_DISPLAY_STARS)))
 	local TEXT_COINS = string.format("%02d", tostring(hud_get_value(HUD_DISPLAY_COINS)))
 	local MATH_DIVIDE_TIME = (timeToggle == 2 and MATH_DIVIDE_TIME_REAL or MATH_DIVIDE_TIME_ACCURATE)
